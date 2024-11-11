@@ -2,6 +2,8 @@
 
 > Кейс "Отток юридических лиц из расчетно-кассового обслуживания"
 
+Leaderboard ROC-AUC: `0.817751`
+
 ## Решение:
 
 1) [AutoGluon](1.%20AutoGluon.ipynb)
@@ -32,5 +34,3 @@ Final prediction for new objects (level 0) =
 Result = 0.6 * LightAutoML + 0.4 * AutoGluon
 ```
   - lb: 0.817751
-
-Final ROC-AUC: `0.817751`
