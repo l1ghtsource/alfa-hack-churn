@@ -6,7 +6,15 @@
 
 1) [AutoGluon](1.%20AutoGluon.ipynb)
 ```python
-Ensemble Weights: {'LightGBMXT_BAG_L2': 0.429, 'XGBoost_BAG_L2': 0.238, 'LightGBM_BAG_L2': 0.143, 'LightGBMLarge_BAG_L2': 0.095, 'LightGBMXT_BAG_L1': 0.048, 'CatBoost_BAG_L2': 0.048}
+Ensemble Weights:
+  {
+    'LightGBMXT_BAG_L2': 0.429,
+    'XGBoost_BAG_L2': 0.238,
+    'LightGBM_BAG_L2': 0.143,
+    'LightGBMLarge_BAG_L2': 0.095,
+    'LightGBMXT_BAG_L1': 0.048,
+    'CatBoost_BAG_L2': 0.048
+  }
 ```
   - val: 0.8133
   - lb: 0.817428
@@ -24,4 +32,6 @@ Final prediction for new objects (level 0) =
 ```python
 Result = 0.6 * LightAutoML + 0.4 * AutoGluon
 ```
-  - lb: **0.817751**
+  - lb: 0.817751
+
+Final ROC-AUC: `0.817751`
