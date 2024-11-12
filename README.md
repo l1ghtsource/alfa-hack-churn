@@ -6,7 +6,7 @@ Leaderboard ROC-AUC: `0.817764`
 
 ## Решение:
 
-1. [AutoGluon](1.%20AutoGluon.ipynb) - запускать на CPU
+1. [AutoGluon](notebooks/1.%20AutoGluon.ipynb) - запускать на CPU
 
 ```python
 Ensemble Weights: {
@@ -22,7 +22,7 @@ Ensemble Weights: {
 - val: 0.8145
 - lb: 0.817466
 
-2. [LightAutoML](2.%20LightAutoML.ipynb) - запускать на CPU
+2. [LightAutoML](notebooks/2.%20LightAutoML.ipynb) - запускать на CPU
 
 ```python
 Final prediction for new objects (level 0) =
@@ -35,7 +35,7 @@ Final prediction for new objects (level 0) =
 - val: 0.8141
 - lb: 0.817412
 
-3. [Blending](3.%20Blending.ipynb)
+3. [Blending](notebooks/3.%20Blending.ipynb)
 
 ```python
 Result = 0.6 * LightAutoML + 0.4 * AutoGluon
