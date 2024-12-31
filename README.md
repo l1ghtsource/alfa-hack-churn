@@ -64,4 +64,4 @@ Result = 0.6 * LightAutoML + 0.4 * AutoGluon
 
 - lb: 0.817764
 ## Private leaderboard
-(photo)[https://github.com/MALINAYAGODA/alfa-hack-churn/blob/patch-1/board.png]
+![photo](https://github.com/MALINAYAGODA/alfa-hack-churn/blob/patch-1/board.png)
